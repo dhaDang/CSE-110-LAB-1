@@ -45,6 +45,7 @@ li a:hover{
 
 #ucsdlogo{
     max-width: 400px;
+    max-width: 100%;
 }
 
 #grids {
@@ -70,3 +71,45 @@ li a:hover{
     display: inline-block;
 }
 
+@media screen and (max-width: 800px) {
+    
+    ul{
+        display: none;
+    }
+
+    #ucsdlogo{
+        max-width: 75%;
+    }
+
+    #header1{
+        font-size: 24px;
+    }
+    #header2{
+        font-size: 24px;
+    }
+    #header3{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    #grids {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 25px;
+        padding: 10px;
+      }
+      
+    #grids > div {
+        background-color: #182b49;
+        text-align: left;
+        padding: 10px 10px;
+        float: left;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+      }
+    
+  }
