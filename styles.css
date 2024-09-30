@@ -113,3 +113,19 @@ li a:hover{
       }
     
   }
+
+#section3{
+    display: inline-block;
+}
+
+#section4{
+    background-color: #182b49;
+}
+
+#sub{
+    color: white;
+}
+
+#enterEmail{
+    color: white;
+}
